@@ -16,6 +16,7 @@ export default function Contact() {
       if (!errorMessage) {
          console.log('Submit Form', formState);
       }
+      setFormState({name:'', email:'', message:''})
    };
 
    const handleChange = (e) => {
@@ -45,7 +46,7 @@ export default function Contact() {
          <p>
             Fill out this form to contact me:
          </p>
-         <form onSubmit={handleSubmit}>
+         <form >
             <input type="text" placeholder="Your name" name="name" defaultValue={name} onBlur={handleChange}/> <br/>
             <input type="email" placeholder="Your email" name="email" defaultValue={email} onBlur={handleChange}/> <br/>
             <textarea placeholder="Your message" name="message" rows="6" defaultValue={message} onBlur={handleChange}></textarea>
@@ -54,7 +55,7 @@ export default function Contact() {
                   <p>{errorMessage}</p>
                </div>
             )}<br />
-            <button class="btn btn-dark" type="submit">Submit</button>
+            <button class="btn btn-dark" onClick={handleSubmit} type="submit">Submit</button>
          </form>
       </div>
    );
