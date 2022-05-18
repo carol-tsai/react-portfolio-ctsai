@@ -2,7 +2,7 @@
    width: 18rem
 }
 
-.project-image {
-   max-height: 200px;
+.card-image {
+   height: 250px;
    object-fit: cover;
 }
