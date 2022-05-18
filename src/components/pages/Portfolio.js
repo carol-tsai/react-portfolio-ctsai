@@ -7,13 +7,13 @@ export default function Portfolio() {
    return (
       <div>
          <h1>Portfolio</h1>
-         <div class="container">
-            <div class="row">
+         <div className="container">
+            <div className="row">
                <Project key={projectsJson[0].name} project={projectsJson[0]} />
                <Project key={projectsJson[1].name} project={projectsJson[1]} />
                <Project key={projectsJson[2].name} project={projectsJson[2]} />
             </div>
-            <div class='row'>
+            <div className='row'>
                <Project key={projectsJson[3].name} project={projectsJson[3]} />
                <Project key={projectsJson[4].name} project={projectsJson[4]} />
                <Project key={projectsJson[5].name} project={projectsJson[5]} />

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Resume() {
    return (
-      <div>
+      <div className='m-3'>
          <h1>Resume Page</h1>
          <a href="./files/resume.pdf" download>Click to Download Resume</a>
          <h3>Skills</h3>

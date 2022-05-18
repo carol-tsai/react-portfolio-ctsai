@@ -3,9 +3,9 @@ import '../styles/About.css';
 
 export default function About() {
    return (
-      <div>
-         <h1>About Me</h1>
-         <img class="headshot" src="./images/headshot.jpeg" alt="Headshot of asian female wearing white sweater"></img>
+      <div className='about'>
+         <h1 className='heading'>About Me</h1>
+         <img className="headshot" src="./images/headshot.jpeg" alt="Headshot of asian female wearing white sweater"></img>
          <p>
             Hello, my  name is Carol Tsai. I was born and raised in Mission  Viejo, California, but I moved to Philadelphia
             in the summer of 2021. I studied Environmental

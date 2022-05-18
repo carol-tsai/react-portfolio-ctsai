@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import '../styles/Contact.css';
 
 function validateEmail(email) {
    const regex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -12,11 +13,11 @@ export default function Contact() {
    const { name, email, message } = formState;
 
    const handleSubmit = (e) => {
-      e.preventDefault();
       if (!errorMessage) {
          console.log('Submit Form', formState);
+         setFormState('');
       }
-      setFormState({name:'', email:'', message:''})
+      
    };
 
    const handleChange = (e) => {
@@ -41,21 +42,21 @@ export default function Contact() {
    };
 
    return (
-      <div>
+      <div className='m-3'>
          <h1>Contact Page</h1>
          <p>
             Fill out this form to contact me:
          </p>
          <form >
-            <input type="text" placeholder="Your name" name="name" defaultValue={name} onBlur={handleChange}/> <br/>
-            <input type="email" placeholder="Your email" name="email" defaultValue={email} onBlur={handleChange}/> <br/>
-            <textarea placeholder="Your message" name="message" rows="6" defaultValue={message} onBlur={handleChange}></textarea>
+            <input type="text" className='form-control' placeholder="Your name" name="name" defaultValue={name} onBlur={handleChange}/> <br/>
+            <input type="email" className='form-control' placeholder="Your email" name="email" defaultValue={email} onBlur={handleChange}/> <br/>
+            <textarea placeholder="Your message" className='form-control' name="message" rows="6" defaultValue={message} onBlur={handleChange}></textarea>
             {errorMessage && (
                <div >
                   <p>{errorMessage}</p>
                </div>
             )}<br />
-            <button class="btn btn-dark" onClick={handleSubmit} type="submit">Submit</button>
+            <button className="btn btn-dark" onClick={handleSubmit} type="submit">Submit</button>
          </form>
       </div>
    );

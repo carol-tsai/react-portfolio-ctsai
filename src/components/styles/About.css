@@ -7,3 +7,15 @@
    margin-right: auto;
    margin-left: auto;
 }
+.about {
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   width: 80%;
+}
+
+.heading {
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+}

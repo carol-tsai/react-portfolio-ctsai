@@ -6,6 +6,7 @@ import Portfolio from './components/pages/Portfolio';
 import About from './components/pages/About';
 import Resume from './components/pages/Resume';
 import Contact from './components/pages/Contact';
+import './App.css';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('About');
