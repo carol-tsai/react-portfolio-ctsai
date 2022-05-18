@@ -12,8 +12,8 @@ export default function Portfolio() {
                   <div class="card-body">
                      <h5 class="card-title">Travel Check</h5>
                      <p class="card-text">Javascript</p>
-                     <a href="https://qkeddy.github.io/travelcheck/" class="btn btn-primary m-1">Go to Project</a>
-                     <a href="https://github.com/qkeddy/travelcheck" class="btn btn-primary m-1">Github</a>
+                     <a href="https://qkeddy.github.io/travelcheck/" target="_blank" rel="noreferrer" class="btn btn-primary m-1">Go to Project</a>
+                     <a href="https://github.com/qkeddy/travelcheck" target="_blank" rel="noreferrer" class="btn btn-secondary m-1">Github</a>
                   </div>
                </div>
                <div class="card col m-1">
@@ -21,8 +21,8 @@ export default function Portfolio() {
                   <div class="card-body">
                      <h5 class="card-title">Day Planner</h5>
                      <p class="card-text">Javascript</p>
-                     <a href="https://qkeddy.github.io/travelcheck/" class="btn btn-primary m-1">Go to Project</a>
-                     <a href="https://github.com/qkeddy/travelcheck" class="btn btn-primary m-1">Github</a>
+                     <a href="https://github.com/carol-tsai/day-planner" target="_blank" rel="noreferrer" class="btn btn-primary m-1">Go to Project</a>
+                     <a href="https://carol-tsai.github.io/day-planner/" target="_blank" rel="noreferrer" class="btn btn-secondary m-1">Github</a>
                   </div>
                </div>
                <div class="card col m-1">
@@ -30,8 +30,8 @@ export default function Portfolio() {
                   <div class="card-body">
                      <h5 class="card-title">Harry Potter Quiz</h5>
                      <p class="card-text">Javascript</p>
-                     <a href="https://qkeddy.github.io/travelcheck/" class="btn btn-primary m-1">Go to Project</a>
-                     <a href="https://github.com/qkeddy/travelcheck" class="btn btn-primary m-1">Github</a>
+                     <a href="https://carol-tsai.github.io/harry-potter-quiz/" target="_blank" rel="noreferrer" class="btn btn-primary m-1">Go to Project</a>
+                     <a href="https://github.com/carol-tsai/harry-potter-quiz" target="_blank" rel="noreferrer" class="btn btn-secondary m-1">Github</a>
                   </div>
                </div>
             </div>
@@ -41,8 +41,8 @@ export default function Portfolio() {
                   <div class="card-body">
                      <h5 class="card-title">Mood Tunes</h5>
                      <p class="card-text">Javascript</p>
-                     <a href="https://qkeddy.github.io/travelcheck/" class="btn btn-primary m-1">Go to Project</a>
-                     <a href="https://github.com/qkeddy/travelcheck" class="btn btn-primary m-1">Github</a>
+                     <a href="https://intense-falls-14504.herokuapp.com/" target="_blank" rel="noreferrer" class="btn btn-primary m-1">Go to Project</a>
+                     <a href="https://github.com/carol-tsai/nostalgia-tunes" target="_blank" rel="noreferrer" class="btn btn-secondary m-1">Github</a>
                   </div>
                </div>
                <div class="card col m-1">
@@ -50,8 +50,8 @@ export default function Portfolio() {
                   <div class="card-body">
                      <h5 class="card-title">Password Generator</h5>
                      <p class="card-text">Javascript</p>
-                     <a href="https://qkeddy.github.io/travelcheck/" class="btn btn-primary m-1">Go to Project</a>
-                     <a href="https://github.com/qkeddy/travelcheck" class="btn btn-primary m-1">Github</a>
+                     <a href="https://carol-tsai.github.io/password-generator/" target="_blank" rel="noreferrer" class="btn btn-primary m-1">Go to Project</a>
+                     <a href="https://github.com/carol-tsai/password-generator" target="_blank" rel="noreferrer" class="btn btn-secondary m-1">Github</a>
                   </div>
                </div>
                <div class="card col m-1">
@@ -59,8 +59,8 @@ export default function Portfolio() {
                   <div class="card-body">
                      <h5 class="card-title">Weather Dashboard</h5>
                      <p class="card-text">Javascript</p>
-                     <a href="https://qkeddy.github.io/travelcheck/" class="btn btn-primary m-1">Go to Project</a>
-                     <a href="https://github.com/qkeddy/travelcheck" class="btn btn-primary m-1">Github</a>
+                     <a href="https://carol-tsai.github.io/weather-dashboard/" target="_blank" rel="noreferrer" class="btn btn-primary m-1">Go to Project</a>
+                     <a href="https://github.com/carol-tsai/weather-dashboard" target="_blank" rel="noreferrer" class="btn btn-secondary m-1">Github</a>
                   </div>
                </div>
             </div>
