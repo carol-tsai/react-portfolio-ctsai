@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-ctsai/static/css/main.315ca7fd.css",
+    "main.js": "/react-portfolio-ctsai/static/js/main.9d088137.js",
+    "index.html": "/react-portfolio-ctsai/index.html",
+    "main.315ca7fd.css.map": "/react-portfolio-ctsai/static/css/main.315ca7fd.css.map",
+    "main.9d088137.js.map": "/react-portfolio-ctsai/static/js/main.9d088137.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.315ca7fd.css",
+    "static/js/main.9d088137.js"
+  ]
+}
