@@ -8,7 +8,7 @@ export default function Contact() {
             Fill out this form to contact me:
          </p>
          <form>
-            <input type="text" placeholder="Your name"></input> <br/>
+            <input type="text" placeholder="Your name" name="name"></input> <br/>
             <input type="email" placeholder="Your email"></input> <br/>
             <textarea placeholder="Your message"></textarea>
          </form>
