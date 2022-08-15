@@ -12,6 +12,7 @@ export default function Project(props) {
          <div className="card-body">
             <h3 className="card-title">{props.project.name}</h3>
             <p className="card-text">{props.project.technology}</p>
+            <p className="card-text">{props.project.description}</p>
             <a
                href={props.project.deployed_link}
                rel="noreferrer"

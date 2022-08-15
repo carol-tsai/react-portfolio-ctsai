@@ -4,41 +4,47 @@
       "technology": "Javascript",
       "image": "./images/travelCheck.png",
       "deployed_link": "https://qkeddy.github.io/travelcheck/",
-      "github_link": "https://github.com/qkeddy/travelcheck"
+      "github_link": "https://github.com/qkeddy/travelcheck",
+      "description": "A simple and intuitive world travel advisory application to help world travelers determine if their destination is safe to travel to."
    },
    {
       "name": "Day Planner",
       "technology": "Javascript",
       "image": "./images/planner.png",
       "deployed_link": "https://carol-tsai.github.io/day-planner/",
-      "github_link": "https://github.com/carol-tsai/day-planner"
+      "github_link": "https://github.com/carol-tsai/day-planner",
+      "description": "A digital day planner where you can input your events and tasks during regular business hours."
    },
    {
       "name": "Harry Potter Quiz",
       "technology": "Javascript",
       "image": "./images/quiz.png",
       "deployed_link": "https://carol-tsai.github.io/harry-potter-quiz/",
-      "github_link": "https://github.com/carol-tsai/harry-potter-quiz"
+      "github_link": "https://github.com/carol-tsai/harry-potter-quiz",
+      "description":"An application to test your knowledge of the Harry Potter universe through a timed quiz."
    },
    {
       "name": "Mood Tunes",
       "technology": "NodeJS",
       "image": "./images/tunes.png",
       "deployed_link": "https://intense-falls-14504.herokuapp.com/",
-      "github_link": "https://github.com/carol-tsai/nostalgia-tunes"
+      "github_link": "https://github.com/carol-tsai/nostalgia-tunes",
+      "description": "A playlist generator application that allows to you to create a musical time capsule for a specific date or period in the past."
    },
    {
       "name": "Password Generator",
       "technology": "Javascript",
       "image": "./images/password.png",
       "deployed_link": "https://carol-tsai.github.io/password-generator/",
-      "github_link": "https://github.com/carol-tsai/password-generator"
+      "github_link": "https://github.com/carol-tsai/password-generator",
+      "description": "A password generator application that created secure passwords according to the users desired specifications."
    },
    {
       "name": "Weather Dashboard",
       "technology": "Javascript",
       "image": "./images/weather.png",
       "deployed_link": "https://carol-tsai.github.io/weather-dashboard/",
-      "github_link": "https://github.com/carol-tsai/weather-dashboard"
+      "github_link": "https://github.com/carol-tsai/weather-dashboard",
+      "description": "A weather application for viewing current and future weather conditions in any city."
    }
 ]
