@@ -45,19 +45,8 @@ export default function Contact() {
       <div className='m-3'>
          <h1>Contact Page</h1>
          <p>
-            Fill out this form to contact me:
+            Email: carol.tsai0224@gmail.com
          </p>
-         <form >
-            <input type="text" className='form-control' placeholder="Your name" name="name" defaultValue={name} onBlur={handleChange}/> <br/>
-            <input type="email" className='form-control' placeholder="Your email" name="email" defaultValue={email} onBlur={handleChange}/> <br/>
-            <textarea placeholder="Your message" className='form-control' name="message" rows="6" defaultValue={message} onBlur={handleChange}></textarea>
-            {errorMessage && (
-               <div >
-                  <p>{errorMessage}</p>
-               </div>
-            )}<br />
-            <button className="btn btn-dark" onClick={handleSubmit} type="submit">Submit</button>
-         </form>
       </div>
    );
 }
