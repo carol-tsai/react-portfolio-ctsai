@@ -15,6 +15,9 @@ export default function Resume() {
             <li>MySQL</li>
             <li>MongoDB</li>
             <li>ExpressJS</li>
+            <li>Shopify liquid</li>
+            <li>GraphQL</li>
+            <li>PHP</li>
          </ul>
       </div>
    );
