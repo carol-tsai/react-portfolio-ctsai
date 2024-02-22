@@ -7,11 +7,8 @@ export default function About() {
          <h1 className='heading'>About Me</h1>
          <img className="headshot" src="./images/headshot.jpeg" alt="Headshot of asian female wearing white sweater"></img>
          <p>
-            Hello, my  name is Carol Tsai. I was born and raised in Mission  Viejo, California, but I moved to Philadelphia
-            in the summer of 2021. I studied Environmental
-            Sciences at UC Berkeley and graduated in 2020 with a minor in Geographic Information Systems (GIS). After working as a GIS Contractor at 
-            Apple Maps for nearly two years, I decided that the next step for me was to switch into a career in web development. 
-         </p>
+            Hello, my  name is Carol Tsai. I am a full stack web developer at BikeCo LCC, where I have been learning and growing as a developer since 2022.
+            I entered into web development after exploring Geographic Information Systems in college at UC Berkeley and as a GIS Analyst for Apple Maps.
          <p>
             I was first introduced to coding through some computer science classes I took in college. Although I
             initially only took these classes to learn a new skill on the side, it quickly became a new mindset that I
