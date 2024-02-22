@@ -15,8 +15,8 @@ export default function About() {
             gained for how to approach problems and find solutions in much of life. In my early career I began using some of my python
             knowledge to write simple automation scipts for my team. I saw that coding could have so many more applications
             and I wanted to learn more, so I decided to leave my job and enrolled in the UPenn LPS Coding Bootcamp, which introduced me to software
-            development and plugged me into a network of like-minded learners. I am currently working as a full-stack developer for BikeCo LLC,
-            where I have the privilege of sharing my love for the outdoors while also growing in my skills as a developer.
+            development and plugged me into a network of like-minded learners. My current positions as the only developer for a small bike business allows me to 
+            grow and expand my skills while also shareing my love for the outdoors and sport.
          </p>
       </div>
    );
