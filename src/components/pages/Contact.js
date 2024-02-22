@@ -11,6 +11,9 @@ export default function Contact() {
          <p>
             Email: carol.tsai0224@gmail.com
          </p>
+         <p>
+            Linkedin: <a href="https://www.linkedin.com/in/carol-tsai/">https://www.linkedin.com/in/carol-tsai/</a>
+         </p>
       </div>
    );
 }
